@@ -1,0 +1,90 @@
+* {
+    margin: 0px;
+    padding: 0px;
+} /*deixar default para a gente mesmo configurar ao nosso gosto*/
+
+html, body {
+    background-color: rgba(211, 199, 199, 0.623);
+    min-height: 100vh;
+    font-family: cursive
+}
+
+header {
+    background-color: rgb(3, 3, 3);
+    color: white;
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+}
+
+header > p {
+    padding-bottom: 50px;
+}
+
+header > h1 {
+    font-variant: small-caps;
+    padding-top: 50px;
+}
+
+a {
+    text-decoration: none;
+    color: blanchedalmond;
+    font-weight: bold;
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+
+section { 
+    line-height: 2em;
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    padding-left: 30px;
+}
+
+section.imagem > p {
+    display: inline-block;
+    padding: 5px;
+    background-color: rgba(26, 23, 29, 0.623);
+    text-shadow: 1px 1px 0px black;
+}
+
+
+section.normal {
+    background-color: rgb(255, 255, 255);
+    color: rgb(7, 7, 7);
+}
+
+section.imagem{
+    background-color: rgba(255, 255, 255, 0.61);
+    color: rgb(255, 255, 255);
+    box-shadow: inset 6px 6px 13px 0px rgba(53, 52, 52, 0.37);
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+
+
+section#img01{
+    background-image: url(imagens/background001.jpg);
+    background-position: right center;
+    background-size: cover;
+}
+
+section#img02{
+    background-image: url(imagens/background002.jpg);
+    background-size: cover;
+}
+
+
+
+
+
+footer{
+    background-color: black;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    text-align: center;
+    padding: 6px;
+}
